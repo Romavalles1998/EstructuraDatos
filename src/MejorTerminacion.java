@@ -4,6 +4,7 @@ import java.util.Map;
 public class MejorTerminacion {
 
     public static void main(String[] args) {
+        //OK
         String[] boletos1 = {"00004", "03847", "39804"};
         String[] boletos2 = {"58975", "25894", "52985", "98598"};
 

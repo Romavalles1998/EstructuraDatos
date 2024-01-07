@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Frequency {
 
     public static void main(String[] args) {
+        //OK
         Scanner scanner = new Scanner(System.in);
         Map<String, Integer> frecuenciaPalabras = new HashMap<>();
 

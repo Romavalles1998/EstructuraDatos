@@ -7,6 +7,7 @@ import java.util.Map;
 public class CountCountries {
 
     public static void main(String[] args) throws IOException {
+        //OK
         Map<String, Integer> countByCountry = new HashMap<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\allsk\\IdeaProjects\\Colfuturo-Seleccionados.csv"))) {
