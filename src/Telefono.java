@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Telefono {
     public static void main(String[] args) {
+        //OK
         Map<String, String> telefonos = new HashMap<String, String>();
         telefonos.put("Ana", "623988933");
         telefonos.put("Rodolfo", "635358689");

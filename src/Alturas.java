@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Alturas {
 
     public static void main(String[] args) {
+        //OK
         Scanner scanner = new Scanner(System.in);
         // Método 1: Obtener el número de alumnos
         int numAlumnos = numeroAlumnos(scanner);

@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 public class PapaNoel {
     public static void main(String[] args) {
+        //Regular
         ArrayList<Integer> portales = new ArrayList<>(Arrays.asList(2,5,1));
         System.out.println("Portales a visitar:"+portales);
         ArrayList<Integer> ruta = repartirRegalos(portales,3);
@@ -10,6 +11,7 @@ public class PapaNoel {
     public static ArrayList<Integer> repartirRegalos(ArrayList<Integer> portales, int posicionActual){
         ArrayList<Integer> portalesVisitados = new ArrayList<>();
         while (!portales.isEmpty()){
+            //Como no eliminas nigún elemento del ArrayList, nunca acaba
             int portalMasCercano = encontrarPortalMasCercano(portales,posicionActual);
             portalesVisitados.add(Integer.valueOf(portalMasCercano));
             posicionActual = portalMasCercano;

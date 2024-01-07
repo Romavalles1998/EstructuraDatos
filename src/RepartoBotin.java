@@ -6,6 +6,7 @@ import java.util.Map;
 public class RepartoBotin {
 
     public static void main(String[] args) {
+        //Regular. No funciona correctamente porque los barajas
         int[] billetes1 = {10, 20, 50, 200, 500};
         int[] billetes2 = {50, 20, 100, 200, 500, 10, 50};
 
@@ -26,7 +27,8 @@ public class RepartoBotin {
         for (int billete : billetes) {
             billetesBarajados.add(billete);
         }
-        Collections.shuffle(billetesBarajados);
+        //¿Por qué los barajas?
+        //Collections.shuffle(billetesBarajados);
 
         // Repartir los billetes
         for (int i = 0; i < numParticipantes; i++) {
